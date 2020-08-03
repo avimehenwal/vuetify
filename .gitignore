@@ -20,3 +20,5 @@ cypress/screenshots
 cypress/videos
 
 .now
+# avi
+avi/*
