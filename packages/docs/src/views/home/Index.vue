@@ -22,12 +22,12 @@
     name: 'Home',
 
     components: {
-      HomeFeature: () => import('./components/Feature'),
       HomeHero: () => import('./components/Hero'),
-      HomeMadeWithVuetify: () => import('./components/MadeWithVuetify'),
-      HomePremiumThemes: () => import('./components/PremiumThemes'),
-      HomeSponsors: () => import('./components/Sponsors'),
       HomeTidelift: () => import('./components/Tidelift'),
+      HomeFeature: () => import('./components/Feature'),
+      HomeSponsors: () => import('./components/Sponsors'),
+      HomePremiumThemes: () => import('./components/PremiumThemes'),
+      HomeMadeWithVuetify: () => import('./components/MadeWithVuetify'),
     },
   }
 </script>

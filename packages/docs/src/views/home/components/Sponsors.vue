@@ -32,7 +32,7 @@
   export default {
     name: 'HomeSponsors',
 
-    provide: { id: 'home-sponsors' },
+    provide: { id: 'home-sponsors' },       // https://vuejs.org/v2/api/#provide-inject
 
     computed: {
       tier () {

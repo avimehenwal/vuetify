@@ -20,6 +20,7 @@ module.exports = {
   ],
   rules: {
     // allow paren-less arrow functions
+    "ignoreEOLComments": true,                  // https://eslint.org/docs/rules/no-multi-spaces
     'arrow-parens': ['error', 'as-needed'],
     // set maximum line characters
     'max-len': ['error', 140, 4, {

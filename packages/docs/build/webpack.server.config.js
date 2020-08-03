@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('path')                             // https://nodejs.org/api/path.html
 const webpack = require('webpack')
 const merge = require('webpack-merge')
 const base = require('./webpack.base.config')

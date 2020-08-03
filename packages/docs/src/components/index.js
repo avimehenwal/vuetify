@@ -4,6 +4,7 @@ import camelCase from 'lodash/camelCase'
 
 import './typography'
 
+// for webpack to load everything matchign pattern inside
 const requireComponent = require.context(
   '@/components', true, /\.vue$/
 )

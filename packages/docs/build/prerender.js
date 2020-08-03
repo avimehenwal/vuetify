@@ -1,7 +1,8 @@
+// What does this file do? Purpose?
 const os = require('os')
-const fs = require('fs')
+const fs = require('fs')                // https://nodejs.org/api/fs.html
 const path = require('path')
-const util = require('util')
+const util = require('util')            // https://nodejs.org/api/util.html
 const mkdirp = require('mkdirp')
 const { performance } = require('perf_hooks')
 const {
@@ -9,7 +10,7 @@ const {
   isMainThread,
   parentPort,
   workerData,
-} = require('worker_threads')
+} = require('worker_threads')         // https://nodejs.org/api/worker_threads.html
 
 const ProgressBar = require('progress')
 const { createBundleRenderer } = require('vue-server-renderer')
