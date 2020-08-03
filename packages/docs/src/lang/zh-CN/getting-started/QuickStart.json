@@ -34,5 +34,7 @@
   "cordovaHeader": "## 结合 Cordova",
   "cordovaText": "要将 Vuetify 与 **Cordova** 一起使用，请通过 Vue CLI 添加 [Cordova](https://github.com/m0dch3n/vue-cli-plugin-cordova) 插件。",
   "capacitorHeader": "## 结合 Capacitor",
-  "capacitorText": "想要在 **Capacitor** 中使用 Vuetify，请先安装 Vue CLI 插件 [Capacitor](https://github.com/nklayman/vue-cli-plugin-capacitor) 。"
+  "capacitorText": "想要在 **Capacitor** 中使用 Vuetify，请先安装 Vue CLI 插件 [Capacitor](https://github.com/nklayman/vue-cli-plugin-capacitor) 。",
+  "vuepressHeader": "##  结合 Vuepress",
+  "vuepressText": "我们可以通过两种方式将Vuetify与默认**vuepress**主题配合使用。 通过在[vuepress](https://vuepress.vuejs.org/）`.vuepress/enhanceApp.js`文件（以下代码示例）中注册vuetify作为插件，或者直接从CDN使用vuetify："
 }

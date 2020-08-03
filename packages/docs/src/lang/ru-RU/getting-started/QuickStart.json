@@ -34,5 +34,7 @@
   "cordovaHeader": "## Использование с Cordova",
   "cordovaText": "Чтобы использовать Vuetify с **Corodova**, добавьте [Cordova](https://github.com/m0dch3n/vue-cli-plugin-cordova) через Vue CLI:",
   "capacitorHeader": "## Использование с Capacitor",
-  "capacitorText": "Чтобы использовать Vuetify с **Capacitor**, добавьте плагин [Capacitor](https://github.com/nklayman/vue-cli-plugin-capacitor) через Vue CLI:"
+  "capacitorText": "Чтобы использовать Vuetify с **Capacitor**, добавьте плагин [Capacitor](https://github.com/nklayman/vue-cli-plugin-capacitor) через Vue CLI:",
+  "vuepressHeader": "## Использование с Vuepress",
+  "vuepressText": "Есть 2 способа, которыми мы можем использовать Vuetify со стандартной темой **vuepress**. Либо зарегистрировав vuetify в качестве плагина в файле [vuepress](https://vuepress.vuejs.org/) `.vuepress/enhanceApp.js` (пример кода ниже), либо воспользовавшись vuetify напрямую из CDN:"
 }

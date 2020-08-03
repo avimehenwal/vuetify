@@ -18,5 +18,7 @@
   "webpackText6": "Vuetify 는 [Google's Roboto font](https://material.io/design/typography/the-type-system.html) 와 [Material Design Icons](https://materialdesignicons.com/) 를 사용합니다. 가장 쉬운 설치방법은 `index.html` (보통 `public/index.html`)에 폰트 CDN 들을 추가하는것 입니다.",
   "webpackText7": "다른 아이콘 폰트와 추가적인 적용방법에 대한 정보를 얻고싶다면 [Icons](/customization/icons) 를 참고해 주세요.",
   "cdnHeader": "## CDN 사용하기",
-  "cdnText": "Vue CLI 를 통한 설치 없이 직접 Vuetify.js 를 테스트 하고 싶다면, 아래의 코드 조각을 `index.html` 에 직접 추가 해 주세요. 이것으로 여러 컴포넌트들이 사용가능한 최신버전의 Vue와 Vuetify가 설치될 것입니다. 또한, [Vuetify starter](https://template.vuetifyjs.com) 를 이용해 Codepen 위에서 테스트 해볼 수 있습니다. 배포 환경에선 CDN 패키지를 추천하진 않습니다만 필요하다면 사용하는 에셋들의 버전을 명시해주는것이 유리합니다. 이것에 대하여 더 알고싶다면 [jsdelivr](https://www.jsdelivr.com/) 웹사이트를 참고하세요."
+  "cdnText": "Vue CLI 를 통한 설치 없이 직접 Vuetify.js 를 테스트 하고 싶다면, 아래의 코드 조각을 `index.html` 에 직접 추가 해 주세요. 이것으로 여러 컴포넌트들이 사용가능한 최신버전의 Vue와 Vuetify가 설치될 것입니다. 또한, [Vuetify starter](https://template.vuetifyjs.com) 를 이용해 Codepen 위에서 테스트 해볼 수 있습니다. 배포 환경에선 CDN 패키지를 추천하진 않습니다만 필요하다면 사용하는 에셋들의 버전을 명시해주는것이 유리합니다. 이것에 대하여 더 알고싶다면 [jsdelivr](https://www.jsdelivr.com/) 웹사이트를 참고하세요.",
+  "vuepressHeader": "## Vuepress와 함께 사용",
+  "vuepressText": "기본 **vuepress** 테마와 함께 Vuetify를 사용할 수있는 두 가지 방법이 있습니다. vuetify를 [vuepress](https://vuepress.vuejs.org/)`.vuepress/enhanceApp.js` 파일 (아래 코드 샘플)에 플러그인으로 등록하거나 CDN에서 직접 vuetify를 사용하여 다음을 수행하십시오."
 }

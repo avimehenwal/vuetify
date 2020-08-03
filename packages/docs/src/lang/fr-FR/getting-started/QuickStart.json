@@ -32,5 +32,7 @@
   "pwaText": "Si vous créez une nouvelle application avec Vue CLI, vous avez la possibilité de sélectionner **Application Web Progressive (PWA) Support** ddans la première ligne de commande après le lancement de `vue create mon-app`. Ce paquet peut également être installé dans les projets existants Vue CLI en entrant la commande suivante :",
   "cordovaHeader": "## Utilisation avec Cordova",
   "capacitorHeader": "## Utilisation avec Capacitor",
-  "capacitorText": "Pour utiliser Vuetify avec **Capacitor**, ajoutez [Capacitor](https://github.com/nklayman/vue-cli-plugin-capacitor) via le CLI Vue:"
+  "capacitorText": "Pour utiliser Vuetify avec **Capacitor**, ajoutez [Capacitor](https://github.com/nklayman/vue-cli-plugin-capacitor) via le CLI Vue:",
+  "vuepressHeader": "## Utilisation avec Vuepress",
+  "vuepressText": "Il y a 2 façons d'utiliser Vuetify avec le thème **vuepress** par défaut. Soit en enregistrant vuetify en tant que plugin dans le fichier [vuepress](https://vuepress.vuejs.org/) `.vuepress/enhanApp.js` (exemple de code ci-dessous), soit en utilisant vuetify directement à partir du CDN:"
 }
